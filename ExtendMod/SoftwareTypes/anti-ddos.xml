@@ -1,0 +1,40 @@
+<SoftwareType>
+	<Name>Anti-ddos</Name>
+	<Category>Anti-ddos</Category>
+	<Description>Utile pour améliorer vos machine virtuele</Description>
+	<Random>0.5</Random>
+	<Popularity>0.2</Popularity>
+	<Retention>0.5</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>FALSE</OSSpecific>
+	<InHouse>TRUE</InHouse>
+	<OneClient>FALSE</OneClient>
+	<NameGenerator>DDOS</NameGenerator>
+	<Unlock>0</Unlock>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Récupération des adresse IP</Name>
+			<Description>Le fait de pouvoir récuperer les adresse ip permet de localiser les malfeteur.</Description>
+			<Category>System</Category>
+			<Unlock>0</Unlock>
+			<DevTime>1</DevTime>
+			<CodeArt>1</CodeArt>
+			<Innovation>1</Innovation>
+			<Stability>1</Stability>
+			<Usability>0</Usability>
+			<Serveur>1</Serveur>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Retourne DDOS</Name>
+			<Description>Retourne les attack vers une IP fictif</Description>
+			<Category>Algorithm</Category>
+			<UnLock>0</UnLock>
+			<DevTime>3</DevTime>
+			<CodeArt>1</CodeArt>
+			<Innovation>5</Innovation>
+			<Stability>5</Stability>
+			<Usability>5</Usability>
+			<Serveur>2</Serveur>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -1,0 +1,15 @@
+-start(base)
+-base(base2, end, stop)
+Code
+Editor
+GNU
+Bloc
+Text
+IDE
+-base2(end, stop)
+Editor
+Note
+Text
+Pro
+-end(stop)
+.

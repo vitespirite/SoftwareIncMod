@@ -1,0 +1,13 @@
+-start(base)
+-base(bas2, stop, end)
+Anti
+DDOS
+Security
+Block
+-bas2(stop, end)
+DDOS
+BLOCK
+Attack
+Pirate
+-end(stop)
+.

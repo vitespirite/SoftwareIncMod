@@ -1,0 +1,82 @@
+<SoftwareType>
+	<Name>Code source editor</Name>
+	<Category>Source code</Category>
+	<Description>Permet de modifier des code source</Description>
+	<Random>1</Random>
+	<Popularity>0.7</Popularity>
+	<Iterative>1</Iterative>
+	<Retention>0.7</Retention>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Unlock>1970</Unlock>
+	<NameGenerator>IDE</NameGenerator>
+	<Features>
+		<Feature Forced="True">
+			<Name>GUI</Name>
+			<Description>Intérface utilisateur basique</Description>
+			<Category>2D</Category>
+			<CodeArt>0</CodeArt>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Stability>2</Stability>
+			<Usability>4</Usability>
+			<Serveur>0</Serveur>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Coloration syntaxique</Name>
+			<Description>La couleur des syntax</Description>
+			<Category>Algorithm</Category>
+			<CodeArt>0.5</CodeArt>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Stability>0</Stability>
+			<Usability>2</Usability>
+			<Serveur>0</Serveur>
+		</Feature>
+		<Feature>
+			<Name>Autocomplétion</Name>
+			<Description>L'autocomplétion des ligne de code</Description>
+			<Category>System</Category>
+			<CodeArt>1</CodeArt>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Stability>0</Stability>
+			<Usability>1</Usability>
+		</Feature>
+		<Feature>
+			<Name>Multi-fichier</Name>
+			<Description>Permet d'avoire plusieurs fichier d'ouvert en même temps</Description>
+			<Category>System</Category>
+			<CodeArt>0.8</CodeArt>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Stability>1</Stability>
+			<Usability>1</Usability>
+			<Serveur>0</Serveur>
+		</Feature>
+		<Feature From="GUI">
+			<Name>Espace de travaille configurable</Name>
+			<Description>Les utilisateur peuvent modifier l'interface comme bon leur semble</Description>
+			<Category>System</Category>
+			<CodeArt>0.5</CodeArt>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Stability>1</Stability>
+			<Usability>1</Usability>
+			<Serveur>0</Serveur>
+			<Unlock>1990</Unlock>
+		</Feature>
+		<Feature From="Espace de travaille configurable">
+			<Name>GUI avancée</Name>
+			<Description>Une interface avancé, toujours plus belle a l'oeuil</Description>
+			<Category>System</Category>
+			<CodeArt>0.3</CodeArt>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Stability>3</Stability>
+			<Usability>4</Usability>
+			<Unlock>1995</Unlock>
+		</Feature>
+	</Features>
+</SoftwareType>

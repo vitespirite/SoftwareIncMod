@@ -1,0 +1,90 @@
+<SoftwareType>
+	<Name>VPS</Name>
+	<Category>Service client</Category>
+	<Description>Peut-être achetée par des client afin d'avoire un serveur virtuelle</Description>
+	<Random>0.1</Random>
+	<Popularity>0.2</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>0.4</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<NameGenerator>VPS</NameGenerator>
+	<Unlock>1998</Unlock>
+	<Features>
+		<Feature Forced="True">
+			<Name>Configuration serveur</Name>
+			<Description>Nécésaire pour sa création</Description>
+			<Unlock>0</Unlock>
+			<DevTime>5</DevTime> <!-- 5 mois minimum pour cette fnctionnalité -->
+			<Category>Network</Category> <!-- Nom de la compétance requise -->
+			<CodeArt>1</CodeArt> <!-- que des développeur pour cette fonctionnalité -->
+			<Innovation>0.5</Innovation> <!-- Innovation sur 12 -->
+			<Stability>0.1</Stability> <!-- Stabilité sur 12 -->
+			<Usability>5</Usability> <!-- Utilisation sur 12-->
+			<Serveur>0.5</Serveur> <!-- nombre de MBPS utilisé sur les serveur par utilisateur-->
+		</Feature>
+		<Feature Vital="True">
+			<Name>Disque dur</Name>
+			<Description>Conseillez pour attirer des client</Description>
+			<Unlock>0</Unlock>
+			<DevTime>1</DevTime>
+			<Category>System</Category>
+			<CodeArt>1</CodeArt>
+			<Innovation>1</Innovation>
+			<Stability>1</Stability>
+			<Usability>3</Usability>
+			<Serveur>10</Serveur>
+		</Feature>
+		<Feature Forced="True">
+			<Name>GUI</Name>
+			<Description>Permet au utilisateur de controller leur serveur</Description>
+			<Unlock>0</Unlock>
+			<DevTime>2</DevTime>
+			<Category>System</Category>
+			<CodeArt>0.9</CodeArt>
+			<Innovation>1</Innovation>
+			<Stability>2</Stability>
+			<Usability>3</Usability>
+			<Serveur>0</Serveur>
+		</Feature>
+		<Feature From="GUI">
+			<Name>GUI avancé</Name>
+			<Description>Permet au utilisateur de controller leur serveur</Description>
+			<DevTime>3</DevTime>
+			<Category>System</Category>
+			<CodeArt>0.7</CodeArt>
+			<Innovation>3</Innovation>
+			<Stability>5</Stability>
+			<Usability>5</Usability>
+			<Serveur>1</Serveur>
+			<Unlock>1995</Unlock>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Sécurité</Name>
+			<Description>Permet de sécurisée les donnée de facont arcahique</Description>
+			<DevTime>3</DevTime>
+			<Category>Algorithm</Category>
+			<CodeArt>1</CodeArt>
+			<Innovation>2</Innovation>
+			<Stability>-2</Stability>
+			<Usability>0</Usability>
+			<Serveur>2</Serveur>
+			<Unlock>0</Unlock>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Anti-ddos</Name>
+			<Description>Utilisée un logiciel anti-ddos pour renforcer vos machine</Description>
+			<DevTime>6</DevTime>
+			<Category>System</Category>
+			<Innovation>2</Innovation>
+			<Stability>5</Stability>
+			<Usability>0</Usability>
+			<Serveur>0.5</Serveur>
+			<Unlock>0</Unlock>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Anti-ddos">Récupération des adresse IP</Dependency>
+		</Feature>
+	</Features>
+	
+</SoftwareType>
