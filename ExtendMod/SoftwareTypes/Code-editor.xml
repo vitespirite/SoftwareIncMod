@@ -77,6 +77,43 @@
 			<Stability>3</Stability>
 			<Usability>4</Usability>
 			<Unlock>1995</Unlock>
+			<Serveur>0</Serveur>
+		</Feature>
+		<Feature From="GUI avancée">
+			<Name>GUI avancée configurable</Name>
+			<Description>Une intterface avancée c'est bien. Mais configurable c'est mieux !</Description>
+			<Category>System</Category>
+			<CodeArt>0.4</CodeArt>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Stability>4</Stability>
+			<Usability>5</Usability>
+			<Unlock>2000</Unlock>
+			<Serveur>0</Serveur>
+		</Feature>
+		<Feature>
+			<Name>Code share</Name>
+			<Description>Permet au utilisateur de partagée leur code</Description>
+			<Category>Network</Category>
+			<CodeArt>1</CodeArt>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Stability>-2</Stability>
+			<Usability>0</Usability>
+			<Unlock>1995</Unlock>
+			<Serveur>10</Serveur>
+		</Feature>
+		<Feature>
+			<Name>Consol de debug</Name>
+			<Description>Permet au utilisateur de voir leur erreur de code.</Description>
+			<Category>System</Category>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Stability>0</Stability>
+			<Usability>2</Usability>
+			<Unlock>1998</Unlock>
+			<Serveur>0</Serveur>
 		</Feature>
 	</Features>
 </SoftwareType>

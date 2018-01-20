@@ -1,0 +1,29 @@
+<Scenario>
+	<Name>SendBox Mod</Name>
+	
+	<Money>
+		<Amount>10000</Amount>
+		<Amount>100000</Amount>
+		<Amount>1000000</Amount>
+		<Amount>10000000</Amount>
+		<Amount>100000000</Amount>
+	</Money>
+	<Goals></Goals>
+	<Events></Events>
+	<Years>
+		<Year>1970</Year>
+		<Year>1975</Year>
+		<Year>1980</Year>
+		<Year>1985</Year>
+		<Year>1990</Year>
+		<Year>1995</Year>
+		<Year>2000</Year>
+		<Year>2005</Year>
+		<Year>2010</Year>
+		<Year>2015</Year>
+		<Year>2020</Year>
+		<Year>2025</Year>
+		<Year>2030</Year>
+	</Years>
+	<Simulation>TRUE</Simulation>
+</Scenario>

@@ -1,0 +1,9 @@
+<CompanieType>
+	<Specialization>Service client</Specialization>
+	<PerYear>0.2</PerYear>
+	<Types>
+		<Type Software="VPS">1</Type>
+	</Types>
+	<Min>1</Min>
+	<Max>3</Max>
+</CompanieType>
